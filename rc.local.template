@@ -1,7 +1,0 @@
-#!/bin/sh -e
-#(Multiple lines of comments removed.)
-
-# added by inoro 201910091917 (no funciona)
-/home/<user>/minesrv/start.sh
-
-exit 0
