@@ -9,6 +9,6 @@ cd /opt/minecraft
 git clone https://github.com/boot1110001/minesrv.git
 cd /opt/minecraft/minesrv
 cp minecraft@.service /etc/systemd/system/minecraft@.service
-#chown minecraft:root -R /opt/minecraft #no se si esto es bueno o no
+chown minecraft:root -R /opt/minecraft #necesario
 systemctl enable minecraft@minesrv
 #systemctl disable minecraft@minesrv
