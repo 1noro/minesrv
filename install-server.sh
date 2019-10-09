@@ -1,7 +1,8 @@
 #!/bin/bash
 # RUN AS ROOT!!
 #apt install openjdk-8-jre-headless curl screen nano bash grep git
-apt install openjdk-* curl screen nano bash grep git
+#apt install openjdk-* curl screen nano bash grep git
+apt install openjdk-11-jre-headless curl screen nano bash grep git
 mkdir -p /opt/minecraft
 adduser --system --shell /bin/bash --home /opt/minecraft --group minecraft
 cd /opt/minecraft
