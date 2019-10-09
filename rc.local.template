@@ -2,6 +2,6 @@
 #(Multiple lines of comments removed.)
 
 # added by inoro 201910091917
-/home/cosmo/minesrv/start.sh
+/home/<user>/minesrv/start.sh
 
 exit 0
