@@ -18,5 +18,6 @@ if [ $num -gt '-1' ] && [ $num -lt $i ]; then
 	screen -r "${LIST["$num"]}"
 else
 	echo "[FAIL] $num isn't a valid session number."
-	exit
 fi
+
+exit
