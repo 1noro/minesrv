@@ -16,7 +16,7 @@ files_arr.pop() # delete the las element (latest.log)
 
 date_str = files_arr[-1][:10]
 
-print("## Lastest logs:")
+print("## Last day logs:")
 
 for filename in files_arr:
     if (date_str in filename):
